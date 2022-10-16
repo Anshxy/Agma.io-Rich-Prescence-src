@@ -27,7 +27,7 @@ def main():
     elif ''.join(list(Server)[0:2]) == "AS":
             region = "Asia"
 
-    rpc = Presence("1024946659513352232")
+    rpc = Presence("")
 
     rpc.connect()
     rpc.update(
